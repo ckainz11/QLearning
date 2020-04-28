@@ -6,11 +6,7 @@ Implementation of the Q-Learning algorithm.
 
 I've set up the following environment, in which our agent is going to learn:
 
-S E E E
-E M M E
-M M E E 
-G E E E
-
+![Environment](https://github.com/ckainz11/QLearning/blob/master/images/environment.PNG)
 where S = Start, E = Empty, M = Mine and G = Goal
 
 ## Rewards 
