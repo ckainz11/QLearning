@@ -25,5 +25,5 @@ The agent will exponentially exploit his environment more than exploring it.
 
 ## Results
 
-![Result](https://github.com/ckainz11/QLearning/blob/master/results.png)
+![Result](https://github.com/ckainz11/QLearning/blob/master/images/results.png)
 
