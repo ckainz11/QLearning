@@ -23,4 +23,6 @@ The agent will exponentially exploit his environment more than exploring it.
 ## Results
 
 ![Result](https://github.com/ckainz11/QLearning/blob/master/images/results.PNG)
+<br>
+You can see that doesn't go onto the field (2|1), because he has a bad experience with this field as there are tow mines nearby. So not only can the agent find the quickest but also the safest way.
 
