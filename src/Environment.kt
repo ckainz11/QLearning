@@ -1,9 +1,9 @@
 class Environment {
-    val environment  = arrayOf(
-        arrayOf('S', 'E', 'E', 'E'), // S = Start
-        arrayOf('E', 'M', 'M', 'E'), // E = Empty Reward = -1
-        arrayOf('M', 'M', 'E', 'E'), // M = Mine Reward = -10
-        arrayOf('G', 'E', 'E', 'E')  // G = Goal Reward = 100
+    private val environment  = arrayOf(
+        arrayOf('S', 'E', 'E', 'E'),
+        arrayOf('E', 'M', 'M', 'E'),
+        arrayOf('M', 'M', 'E', 'E'),
+        arrayOf('G', 'E', 'E', 'E')
     )
     val states = 16
     val actions = 4
