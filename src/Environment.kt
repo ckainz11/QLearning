@@ -24,8 +24,7 @@ class Environment {
         }
     }
 
-    // 0 = up, 1 = right, 2 = down, 3 = left
-    // return = reward, finished
+
 
     fun takeAction(action: Int): Array<Int>{
         var outOfBoundsReward = 0
@@ -42,7 +41,7 @@ class Environment {
             3->{
                 if(currentCol == 0) {outOfBoundsReward = -20} else {currentCol-=1}
             }
-            else -> throw IllegalArgumentException("Action has to be 1, 2, 3 or 4! Action was: {$action}")
+            else -> throw IllegalArgumentException("Action has to be 0, 1, 2 or 3! Action was: {$action}")
         }
         var reward = getReward()+outOfBoundsReward
         return arrayOf(reward, if(reward==100) {1} else {0})
