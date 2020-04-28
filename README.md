@@ -12,7 +12,7 @@ where S = Start, E = Empty, M = Mine and G = Goal
 
 ## Rewards 
 
-For each step, the agent takes, he gets a reward of -1. This is so that he takes the quickest path.
+For each step, the agent takes, he gets a reward of -1. This prevents him from taking a longer path than necessary.
 A Mine cause a reward of -100 and the goal a reward of +100
 
 ## Strategies
