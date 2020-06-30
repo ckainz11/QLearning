@@ -24,5 +24,5 @@ This means, that the agent will exponentially exploit his environment more than 
 
 ![Result](https://github.com/ckainz11/QLearning/blob/master/images/results.PNG)
 <br>
-You can see the agent that doesn't go onto the field (2|1), because it has a bad experience with this field, as there are two mines nearby. So, not only can the agent find the quickest but also the safest way.
+You can see, that the agent doesn't go onto the field (2|1), because it has a bad experience with this field, as there are two mines nearby. So, not only can the agent find the quickest, but also the safest way.
 
